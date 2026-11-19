@@ -24,12 +24,3 @@
 	font-weight: 900;
 	src: url('../fonts/inter-tight-v9-latin-900.woff2') format('woff2'); 
 }
-
-/* @font-face 
-{
-	font-display: swap;
-	font-family: 'NMS Glyphs Mono';
-	font-style: normal;
-	font-weight: normal;
-	src: url('../fonts/nms-glyphs-mono.woff') format('woff');
-} */
