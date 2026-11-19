@@ -1,0 +1,313 @@
+{
+	"position_galactique":
+	{
+		"point": 
+		{ 
+			"x": 104, 
+			"y": 105 
+		},
+		"ombre_y": 108	
+	},
+	"nom": "Anskoy-Igenr V",
+	"galaxie": "Euclide",
+	"region": "Lakultu",
+	"distance_centre": 2.913,
+	"classe_spectrale": 
+	{
+		"classe": "G3"
+	},
+	"race_id": "gek",
+	"espace_id": "reglemente",
+	"economie": 
+	{
+		"type_id": "high_tech",
+		"designation": "High tech",
+		"niveau": 2
+	},
+	"conflit":
+	{
+		"type": "Intermédiaire",
+		"niveau": 2
+	},
+	"adresse": "009DFF000008",
+	"commentaires": 
+	[
+		"Parmi les systèmes stellaires que j'ai découverts, celui-ci est le plus proche du centre de la galaxie Euclide.",
+		"J'ai installé une base dans un avant-poste d'espace profond."
+	],
+	"composition":
+	[
+		{
+			"type_id": "station_spatiale",
+			"index": 0,
+			"capture": "station.jpg",
+			"guilde_id": "marchands",
+			"modules_s_exocombinaison":
+			[
+				"blindage",
+				"protection_sousmarine",
+				"systeme_survie"
+			],
+			"modules_s_multioutil":
+			[
+				"canon_dispersion",
+				"dard_ardent",
+				"lanceur_plasma"
+			],
+			"modules_s_vaisseau":
+			[
+				"accelerateur_infracouteau",
+				"ejecteur_positrons",
+				"reacteur"
+			],
+			"modules_s_exonef":
+			[
+				"canon_monte",
+				"moteur_fusion",
+				"minotaure_canon",
+				"nautilon_propulsion"
+			],
+			"interets":
+			[	
+				{ "alliance": "Confrérie des Clodo Communiste" }
+			]
+		},
+		{
+			"type_id": "planete",
+			"index": 1,
+			"nom": "Naisy XIV",
+			"capture": "Naisy_XVI.jpg",
+			"icone":
+			{
+				"source_id": "corps_anneau",
+				"echelle": "100%",
+				"couches":
+				{
+					"terre": "EB9032"
+				}
+			},
+			"environnement":
+			{
+				"biome":
+				{
+					"id": "luxuriant"
+				},
+				"climat_id": "normal",
+				"sentinelles_id": "basses",
+				"flore_id": "abondante",
+				"faune_id": "abondante",
+				"ressources_id": "moyennes"
+			},
+			"caracteristiques": 
+			{
+				"biome": "Planète tempérée",
+				"climat": "Brume dangereusement chaude",
+				"sentinelles": "Patrouilles irrégulières",
+				"flore": "Généreuse",
+				"faune": "Pleine",
+				"ressources": "Occasionnelles"
+			},
+			"ressources":
+			[
+				"bulbe_etoile",
+				"cuivre",
+				"paraffinium",
+				"argent"
+			],
+			"interets":
+			[
+				{ "base": "4 bases" }
+			]
+		},
+		{
+			"type_id": "lune",
+			"index": 2,
+			"nom": "Nodfordith Boku",
+			"capture": "Nodfordith_Boku.jpg",
+			"icone":
+			{
+				"source_id": "corps",
+				"echelle": "30%",
+				"couches":
+				{
+					"terre": "BB9E7D"
+				}
+			},
+			"environnement":
+			{
+				"biome":
+				{
+					"id": "aride"
+				},
+				"climat_id": "clair",
+				"sentinelles_id": "intenses",
+				"flore_id": "abondante",
+				"faune_id": "abondante",
+				"ressources_id": "basses"
+			},
+			"caracteristiques": 
+			{
+				"biome": "Lune stérile",
+				"climat": "Radiation solaire directe",
+				"sentinelles": "Attentives",
+				"flore": "Abondante",
+				"faune": "Foisonnante",
+				"ressources": "Rares"
+			},
+			"ressources":
+			[
+				"os_anciens",
+				"chair_cactus",
+				"cuivre",
+				"pyrite",
+				"ferrite_magnetisee"
+			]
+		},
+		{
+			"type_id": "planete",
+			"index": 3,
+			"nom": "Aeuma",
+			"capture": "Aeuma.jpg",
+			"icone":
+			{
+				"source_id": "corps",
+				"echelle": "94%",
+				"couches":
+				{
+					"terre": "CC874C",
+					"eau": "0D356A"
+				}
+			},
+			"environnement":
+			{
+				"biome":
+				{
+					"id": "luxuriant"
+				},
+				"climat_id": "normal",
+				"sentinelles_id": "intenses",
+				"flore_id": "abondante",
+				"faune_id": "abondante",
+				"ressources_id": "moyennes"
+			},
+			"caracteristiques": 
+			{
+				"biome": "Planète verte",
+				"climat": "Bruine surchauffée",
+				"sentinelles": "En action",
+				"flore": "Abondante",
+				"faune": "Généreuse",
+				"ressources": "Régulières"
+			},
+			"ressources":
+			[
+				"bulbe_etoile",
+				"cuivre",
+				"paraffinium",
+				"sodium"
+			],
+			"interets":
+			[
+				{ "base": "9 bases" }
+			]
+		},
+		{
+			"type_id": "planete",
+			"index": 4,
+			"nom": "Unastas Adach",
+			"capture": "Unastas_Adach.jpg",
+			"icone":
+			{
+				"source_id": "corps",
+				"echelle": "92%",
+				"couches":
+				{
+					"terre": "90957E"
+				}
+			},
+			"environnement":
+			{
+				"biome":
+				{
+					"id": "mort"
+				},
+				"climat_id": "clair",
+				"sentinelles_id": "basses",
+				"flore_id": "aucune",
+				"faune_id": "aucune",
+				"ressources_id": "moyennes"
+			},
+			"caracteristiques": 
+			{
+				"biome": "Planète désolée",
+				"climat": "Totalement immobile",
+				"sentinelles": "Patrouilles irrégulières",
+				"flore": "Déficiente",
+				"faune": "Stérile",
+				"ressources": "Communes"
+			},
+			"ressources":
+			[
+				"cuivre",
+				"metal_rouille",
+				"ferrite_magnetisee"
+			],
+			"interets":
+			[
+				{ "base": "4 bases" }
+			]
+		},
+		{
+			"type_id": "planete",
+			"index": 5,
+			"nom": "Nuglin A-113",
+			"capture": "Nuglin_A113.jpg",
+			"icone":
+			{
+				"source_id": "corps",
+				"echelle": "92%",
+				"couches":
+				{
+					"terre": "8E7A6F"
+				}
+			},
+			"environnement":
+			{
+				"biome":
+				{
+					"id": "volcanique"
+				},
+				"climat_id": "extreme",
+				"sentinelles_id": "intenses",
+				"flore_id": "faible",
+				"faune_id": "abondante",
+				"ressources_id": "basses"
+			},
+			"caracteristiques": 
+			{
+				"biome": "Planète volcanique",
+				"climat": "Grêle basaltique",
+				"sentinelles": "Fréquentes",
+				"flore": "Peu courante",
+				"faune": "Riche",
+				"ressources": "Sporadiques"
+			},
+			"ressources":
+			[
+				"piece_recuperable",
+				"cuivre_active",
+				"pyrite",
+				"sodium"
+			],
+			"interets":
+			[
+				{ "base": "4 bases" },
+				{ "tombe": "Tombe à -2.58, -47.73" }
+			],
+			"commentaires":
+			[
+				"Des montagnes gigantesques !"
+			]
+		}
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"position_galactique":
+	{
+		"point": 
+		{ 
+			"x": 50, 
+			"y": 130 
+		},
+		"ombre_y": 110	
+	},
+	"nom": "Test Abandonné",
+	"galaxie": "Euclide",
+	"region": "Yaayah",
+	"distance_centre": 697.669,
+	"classe_spectrale": 
+	{
+		"classe": "X0p"
+	},
+	"race_id": "vykeen",
+	"espace_id": "abandonne",
+	"economie": 
+	{
+		"type_id": "scientifique"
+	},
+	"adresse": "",
+	"composition":
+	[
+		{
+			"type_id": "station_spatiale",
+			"index": 0,
+			"capture": "station.jpg"
+		},
+		{
+			"type_id": "planete",
+			"index": 1,
+			"nom": "Yoyo",
+			"capture": "yoyo.jpg",
+			"icone":
+			{
+				"source_id": "corps",
+				"echelle": "100%",
+				"couches":
+				{
+					"gaz": "3b23a1ff"
+				}
+			},
+			"interets":
+			[
+				{ "base": "4 bases" },
+				{ "base": "Hélium cristallisé et méthane" }
+			]
+		}
+	]
+}

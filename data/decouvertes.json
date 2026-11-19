@@ -1,0 +1,10 @@
+{
+	"decouvertes":
+	[
+		{ "url": "test_pirate/", "nom": "TEST Pirate" },
+		{ "url": "test_laikasu_x/", "nom": "TEST Laikasu X" },
+		{ "url": "test_abandonne/", "nom": "TEST Abandonné" },
+		{ "url": "anskoy_igenr_v/", "nom": "Anskoy-Igenr V" },
+		{ "url": "lizovayan/", "nom": "Lizovayan" }
+	]	
+}

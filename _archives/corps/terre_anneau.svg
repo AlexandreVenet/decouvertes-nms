@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg xmlns="http://www.w3.org/2000/svg"
+width="106" height="74"
+viewBox="0 0 106 74"
+>
+	<path class="anneau" fill="none" stroke="#b3b3b3" stroke-width="2" stroke-linecap="round"
+		d="M 1.4529538,67.234795 104.54705,7.713405"
+	/>
+	<circle class="terre" fill="#785e4a"
+		cx="53" cy="37"
+		r="37"
+	/>
+</svg>

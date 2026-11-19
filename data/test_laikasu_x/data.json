@@ -1,0 +1,166 @@
+{
+	"position_galactique":
+	{
+		"point": 
+		{ 
+			"x": 89.338, 
+			"y": 107.682 
+		},
+		"ombre_y": 113.406	
+	},
+	"nom": "Test Laikasu X",
+	"galaxie": "Euclide",
+	"region": "Terminus Icroux",
+	"distance_centre": 173.977,
+	"classe_spectrale": 
+	{
+		"classe": "E5f"
+	},
+	"particularites": 
+	[
+		"atlas",
+		"trou_noir"	
+	],
+	"race_id": "korvax",
+	"espace_id": "reglemente",
+	"economie": 
+	{
+		"type_id": "miniere",
+		"designation": "Mercantile",
+		"niveau": 1
+	},
+	"conflit": 
+	{
+		"type": "Indiscipliné",
+		"niveau": 2
+	},
+	"adresse": "",
+	"composition":
+	[
+		{
+			"type_id": "station_spatiale",
+			"index": 0,
+			"capture": "blou_blou_x22.jpg",
+			"guilde_id": "marchands",
+			"modules_s_vaisseau":
+			[
+				"propulseur_decollage",
+				"bouclier_deflecteur",
+				"hyperpropulsion",
+				"canon_photons",
+				"rayon_phasique",
+				"ejecteur_positrons",
+				"accelerateur_infracouteau",
+				"baliste_cyclotron"
+			]
+		},
+		{
+			"type_id": "planete",
+			"index": 1,
+			"nom": "Blou blou X22",
+			"capture": "blou_blou_x22.jpg",
+			"icone":
+			{
+				"source_id": "corps_anneau",
+				"echelle": "50%",
+				"couches":
+				{
+					"terre": "34db4a",
+					"eau": "3498db"
+				}
+			},
+			"environnement":
+			{
+				"biome":
+				{
+					"id": "luxuriant",
+					"aspect_id": "infeste"
+				},
+				"climat_id": "normal",
+				"sentinelles_id": "corrompues",
+				"flore_id": "moyenne",
+				"faune_id": "etrange",
+				"ressources_id": "moyennes"
+			},
+			"caracteristiques": 
+			{
+				"biome": "Planète desséchée",
+				"climat": "Climat clair",
+				"sentinelles": "Patrouilles régulières",
+				"flore": "Flore abondante",
+				"faune": "Faune limitée",
+				"ressources": "Faune limitée"
+			},
+			"ressources":
+			[
+				"debris_essaims",
+				"piece_recuperable",
+				"chair_cactus",
+				"ferrite_magnetisee",
+				"pyrite",
+				"emeril"
+			]
+		},
+		{
+			"type_id": "lune",
+			"index": 2,
+			"nom": "Licesto X",
+			"capture": "blou_blou_x22.jpg",
+			"icone":
+			{
+				"source_id": "corps",
+				"echelle": "100%",
+				"couches":
+				{
+					"terre": "B165D5"
+				}
+			},
+			"environnement":
+			{
+				"biome":
+				{
+					"id": "exotique",
+					"type_id": "contour"
+				},
+				"climat_id": "extreme",
+				"sentinelles_id": "corrompues",
+				"flore_id": "abondante",
+				"faune_id": "faible",
+				"ressources_id": "basses"
+			},
+			"caracteristiques": 
+			{
+				"biome": "Planète givrée",
+				"climat": "Tempêtes de neige violentes",
+				"sentinelles": "Sentinelles zélées",
+				"flore": "Flore pleine",
+				"faune": "Faune rare",
+				"ressources": "Rares"
+			},
+			"ressources":
+			[
+				"emeril",
+				"pyrite",
+				"cuivre"
+			],
+			"special":
+			[
+				{
+					"titre": "Note 1",
+					"contenu":
+					[
+						{ "type": "reference", "referentiel": "climats", "id": "clair" },
+						{ "type": "libre", "icone_id": "noyau_station", "nom": "Youpi" }
+					]
+				},
+				{
+					"titre": "Note 2",
+					"contenu":
+					[
+						{ "type": "libre", "icone_id": "commentaire", "nom": "Sans doute le système le plus proche du centre galactique" }
+					]
+				}
+			]
+		}
+	]
+}

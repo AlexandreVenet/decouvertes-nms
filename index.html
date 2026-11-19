@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Découvertes No Man's Sky</title>
+		<meta name="author" content="Alexandre Venet">
+		<meta name="description" content="Des découvertes de No Man's Sky.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./css/fonts.css">
+		<link rel="stylesheet" href="./css/styles.css">
+	</head>
+	<body>
+		<div class="viewport fond-bienvenue" data-scroll="x">
+			<div class="conteneur-horizontal">
+				<div class="bienvenue">		
+					<div class="defilement-vertical intro" data-scroll="y">
+						<aside>Bienvenue</aside>
+						<section>
+							<h1>Découvertes <br>No Man's Sky</h1>
+							<p class="marge-basse-texte">Ce site est mon carnet de voyage dans No Man's Sky. Il utilise les défilements horizontal et vertical.</p>
+							<p class="marge-basse-texte">Le niveau d'économie des systèmes abandonnés est omis car toujours de niveau 1. Le premier glyphe des adresses est 0 pour cibler le système.</p>
+							<p class="marge-basse-texte">Les planètes sont ordonnées selon leur distance du centre et les lunes selon celle de leur planète. Les icônes des planètes et lunes respectent les proportions en UI, représentent la terre, l'eau, le gaz, les anneaux, la dissonance, et leur couleur est prélevée de l'espace.</p>
+							<p>L'environnement planétaire est déduit des données.</p>
+						</section>
+					</div>
+					<div class="defilement-vertical liste" data-scroll="y">
+						<ul class="liste-systemes">
+							<!-- decouvertes -->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<template id="decouvertes">
+			<li>
+				<button data-donnees="" data-champ="bouton">
+					<span data-champ="numero"></span>
+					<span data-champ="nom"></span>
+				</button>
+			</li>
+		</template>
+				
+		<template id="fiche">
+			<div class="viewport fond-fiche invisible" data-scroll="x" inert>
+				<div class="conteneur-horizontal">
+					<div class="fiche" data-champ="fiche">
+						<div class="defilement-vertical generalites" data-scroll="y">
+							<aside>
+								<button data-champ="boutonRetour">Revenir à l'accueil</button>
+							</aside>
+							<section>
+								<div class="galaxie" data-champ="galaxieSvg">
+									<svg xmlns="http://www.w3.org/2000/svg" width="209" height="209" viewBox="0 0 209 209">
+										<g fill="none" stroke-width="1">
+											<circle cx="104" cy="104" r="9" stroke="#cccccc" />
+											<circle cx="104" cy="104" r="4" fill="#cccccc" stroke="none" />
+											<circle cx="104" cy="104" r="78" stroke="#cccccc" />
+											<circle cx="104" cy="104" r="91" stroke="#e6e6e6" />
+											<circle cx="104" cy="104" r="104" stroke="#ececec" />
+											<ellipse cx="104" cy="104" rx="78" ry="19" stroke="#cccccc" />
+										</g>
+										<ellipse fill="#999999" data-champ="pointOmbre"
+											cx="70" cy="100"
+											rx="5" ry="2" 
+										/>
+										<line stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round" data-champ="pointLiaison"
+											x1="70" y1="50"
+											x2="70" y2="100"
+										/>
+										<circle fill="#1a1a1a" data-champ="pointPoint"
+											cx="70" cy="50"
+											r="3"
+										/>
+									</svg>
+								</div>
+								<h2 data-champ="nom"></h2>
+								<ul>
+									<li data-champ="galaxie">
+										<div>Galaxie</div>
+										<!-- generalitesTexte -->
+									</li>
+									<li data-champ="region">
+										<div>Région</div>
+										<!-- generalitesTexte -->
+									</li>
+									<li data-champ="distanceCentre">
+										<div>Distance du centre</div>
+										<!-- generalitesTexte -->
+									</li>
+								</ul>
+								<ul>
+									<li data-champ="classeSpectrale">
+										<div>Classe spectrale</div>
+										<!-- generalitesTexte -->
+									</li>
+									<li data-champ="couleurEtoile">
+										<div>Couleur</div>
+										<!-- generalitesTexte -->
+									</li>
+									<li data-champ="nombreCorps">
+										<div>Corps</div>
+										<!-- generalitesTexte -->
+									</li>
+								</ul>
+								<ul>
+									<li data-champ="particularites">
+										<div>Particularités</div>
+										<!-- 
+											generalitesListeInfos avec des generalitesInfo : texte, image 
+											ou 
+											generalitesTexte si aucune particularité
+										 -->
+									</li>
+								</ul>
+								<ul>
+									<li data-champ="espace">
+										<div>Espace</div>
+										<!-- generalitesInfo : texte, image -->
+									</li>
+									<li data-champ="race">
+										<div>Race dominante</div>
+										<!-- generalitesInfo : texte, image -->
+									</li>
+									<li data-champ="economie">
+										<div>Économie</div>
+										<!-- generalitesInfo : texte, puces, image -->
+									</li>
+									<li data-champ="conflit">
+										<div>Conflit</div>
+										<!-- generalitesInfo : texte, puces, image -->
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<div>Adresse</div>
+										<div class="glyphes" data-champ="adresse">
+											<!-- images -->
+										</div>
+									</li>
+								</ul>
+								<ul class="texteJustifie" data-champ="commentaires">
+									<!-- generalitesCommentaire -->
+								</ul>
+							</section>
+						</div>
+						<!-- Corps -->
+					</div>
+				</div>
+			</div>
+		</template>
+								 		
+		<template id="generalitesTexte">
+			<div class="gras" data-champ="texte"></div>
+		</template>
+		
+		<template id="generalitesIcone">
+			<img src="" alt="" data-champ="icone">
+		</template>
+		
+		<template id="generalitesInfo">
+			<div class="info" data-champ="bloc">
+				<!-- generalitesTexte, generalitesInfoPuces, generalitesImage... -->
+			</div>
+		</template>
+		
+		<template id="generalitesInfoPuces">
+			<div class="puces" data-champ="puces">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</template>
+	
+		<template id="generalitesListeInfos">
+			<div class="listeInfos" data-champ="liste">
+				<!-- generalitesInfo -->
+			</div>	
+		</template>
+		
+		<template id="generalitesCommentaire">
+			<li data-champ="texte"></li>
+		</template>
+				 
+		<template id="corps">
+			<div class="defilement-vertical corps" data-scroll="y" data-champ="contenu">
+				<div class="icone-objet" data-champ="icone">
+					<!-- Code SVG -->
+				</div>
+				<h3>
+					<span data-champ="index"></span>
+					<span data-champ="nom"></span>
+				</h3>
+				<button class="capture" data-champ="captureBouton">
+					<img src="" alt="" data-champ="captureImage">
+				</button>
+				<!-- Blocs d'infos -->
+			</div>
+		</template>
+		
+		<template id="corpsBlocInfos">
+			<h4 data-champ="titre"></h4>
+			<ul data-champ="liste">
+				<!-- Infos -->
+			</ul>
+		</template>
+		
+		<template id="corpsInfo">
+			<li>
+				<img src="" alt="" data-champ="icone">
+				<div class="gras couleur2" data-champ="nom"></div>
+			</li>
+		</template>
+				
+		<script type="module" src="./js/main.js"></script>
+	</body>
+</html>

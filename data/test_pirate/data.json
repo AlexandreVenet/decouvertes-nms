@@ -1,0 +1,35 @@
+{
+	"position_galactique":
+	{
+		"point": 
+		{ 
+			"x": 140, 
+			"y": 50 
+		},
+		"ombre_y": 100	
+	},
+	"nom": "Test Pirate",
+	"galaxie": "Euclide",
+	"region": "Masse Exbeuri",
+	"distance_centre": 700.831,
+	"classe_spectrale": 
+	{
+		"classe": "F6f"
+	},
+	"race_id": "vykeen",
+	"espace_id": "pirate",
+	"economie": 
+	{
+		"type_id": "scientifique",
+		"designation": "Production de carburant"
+	},
+	"adresse": "",
+	"composition":
+	[
+		{
+			"type_id": "station_spatiale",
+			"index": 0,
+			"capture": "station.jpg"
+		}
+	]
+}

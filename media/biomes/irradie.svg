@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="icone_biome_irradie.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1" /><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:current-layer="svg1" /><path
+     d="M 12.670944,0.8200856 C 12.250752,0.5212162 11.679646,0.6839669 11.422203,1.1307915 L 9.2798114,4.838548 c 0.9261996,0.4675382 1.5624076,1.4292474 1.5624076,2.5359524 h 4.261109 c 0.523761,0 0.952831,-0.426111 0.89069,-0.943955 C 15.724739,4.1194858 14.473039,2.1072956 12.670944,0.8200856 Z M 4.577796,1.1278324 C 4.320354,0.6810078 3.749247,0.5182571 3.329055,0.8200856 1.526961,2.1043365 0.27526,4.1165267 0.005982,6.4305454 c -0.06214,0.517844 0.369888,0.943954 0.89069,0.943954 h 4.2611084 c 0,-1.109663 0.6362072,-2.0684132 1.5624066,-2.5359514 z M 4.299641,13.461374 c -0.257442,0.446825 -0.112446,1.020892 0.355092,1.236906 1.0179317,0.46458 2.1512683,0.72498 3.3437869,0.72498 1.192519,0 2.3258561,-0.2604 3.3437871,-0.72498 0.467538,-0.213055 0.612535,-0.790081 0.355093,-1.236906 L 9.5579666,9.7506594 C 9.1111426,10.04361 8.5755451,10.215238 8.0014789,10.215238 c -0.5740663,0 -1.1096638,-0.171628 -1.5564886,-0.4645786 z M 7.9985199,8.7948694 c 0.7841623,-0.0059 1.414451,-0.645084 1.411492,-1.429247 -0.00592,-0.787121 -0.6480433,-1.4174107 -1.4322058,-1.4114922 -0.7841625,0.00592 -1.4144513,0.6450842 -1.4085334,1.4322062 0.00296,0.784162 0.6450848,1.414451 1.4292472,1.408533 z"
+     style="fill:#e6cb00;fill-opacity:1;stroke-width:0.029591"
+     id="path1-3"
+     sodipodi:nodetypes="ccccscccccscccccscccsccccscc" /></svg>

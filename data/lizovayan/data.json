@@ -1,0 +1,296 @@
+{
+	"position_galactique":
+	{
+		"point": 
+		{ 
+			"x": 192, 
+			"y": 105
+		},
+		"ombre_y": 109	
+	},
+	"nom": "Lizovayan",
+	"galaxie": "Euclide",
+	"region": "Secteur Wolsum",
+	"distance_centre": 680.812,
+	"classe_spectrale": 
+	{
+		"classe": "K8p",
+		"erreur_couleur": "F"
+	},
+	"race_id": "inconnue",
+	"espace_id": "inexplore",
+	"adresse": "01430218E677",
+	"commentaires": 
+	[
+		"L'étoile est rouge alors que, de classe spectrale K, elle devrait être jaune.",
+		"Les astéroïdes en forme de cristaux contiennent du platine."
+	],
+	"composition":
+	[
+		{
+			"type_id": "planete",
+			"index": 1,
+			"nom": "Ielde Bêta",
+			"capture": "Ielde_Beta.jpg",
+			"icone":
+			{
+				"source_id": "corps",
+				"echelle": "100%",
+				"couches":
+				{
+					"terre": "9D818B",
+					"eau": "1C276C"
+				}
+			},
+			"environnement":
+			{
+				"biome": 
+				{
+					"id": "aride"
+				},
+				"climat_id": "normal",
+				"sentinelles_id": "basses",
+				"flore_id": "faible",
+				"faune_id": "abondante",
+				"ressources_id": "moyennes"
+			},
+			"caracteristiques": 
+			{
+				"biome": "Planète stérile",
+				"climat": "Tempêtes de poussière",
+				"sentinelles": "Éloignées",
+				"flore": "Peu commune",
+				"faune": "Riche",
+				"ressources": "Typiques"
+			},
+			"ressources":
+			[
+				"chair_cactus",
+				"cadmium",
+				"pyrite",
+				"sodium"
+			],
+			"interets":
+			[
+				{ "base": "Extraction de cadmium" }
+			]
+		},
+		{
+			"type_id": "lune",
+			"index": 2,
+			"nom": "Agri Oméga",
+			"capture": "Agri_Omega.jpg",
+			"icone":
+			{
+				"source_id": "corps",
+				"echelle": "30%",
+				"couches":
+				{
+					"terre": "796F82"
+				}
+			},
+			"environnement":
+			{
+				"biome": 
+				{
+					"id": "exotique",
+					"type_id": "contour"
+				},
+				"climat_id": "clair",
+				"sentinelles_id": "basses",
+				"flore_id": "etrange",
+				"faune_id": "etrange",
+				"ressources_id": "moyennes"
+			},
+			"caracteristiques": 
+			{
+				"biome": "Lune câblée",
+				"climat": "Brume invisible",
+				"sentinelles": "Faibles",
+				"flore": "D'ailleurs",
+				"faune": "D'ailleurs",
+				"ressources": "Moyennes"
+			},
+			"ressources":
+			[
+				"cadmium",
+				"or",
+				"ferrite_magnetisee"
+			]
+		},
+		{
+			"type_id": "lune",
+			"index": 3,
+			"nom": "Sunnoymed Mineur",
+			"capture": "Sunnoymed_Mineur.jpg",
+			"icone":
+			{
+				"source_id": "corps",
+				"echelle": "34%",
+				"couches":
+				{
+					"terre": "B83749"
+				}
+			},
+			"environnement":
+			{
+				"biome": 
+				{
+					"id":"luxuriant"
+				},
+				"climat_id": "extreme",
+				"sentinelles_id": "intenses",
+				"flore_id": "abondante",
+				"faune_id": "abondante",
+				"ressources_id": "moyennes"
+			},
+			"caracteristiques": 
+			{
+				"biome": "Lune florrissante",
+				"climat": "Supertempêtes bouillantes",
+				"sentinelles": "En action",
+				"flore": "Généreuse",
+				"faune": "Importante",
+				"ressources": "Occasionnelles"
+			},
+			"ressources":
+			[
+				"os_anciens",
+				"bulbe_etoile",
+				"cadmium",
+				"paraffinium",
+				"argent"
+			]
+		},
+		{
+			"type_id": "planete",
+			"index": 4,
+			"nom": "Achin 59/T6",
+			"capture": "Achin_59T6.jpg",
+			"icone":
+			{
+				"source_id": "corps_anneau",
+				"echelle": "88%",
+				"couches":
+				{
+					"terre": "5C6182",
+					"eau": "628A40"
+				}
+			},
+			"environnement":
+			{
+				"biome": 
+				{
+					"id":"anomalie_chromatique",
+					"type_id": "rouge"
+				},
+				"climat_id": "clair",
+				"sentinelles_id": "basses",
+				"flore_id": "abondante",
+				"faune_id": "abondante",
+				"ressources_id": "moyennes"
+			},
+			"caracteristiques": 
+			{
+				"biome": "Planète pourpre",
+				"climat": "Tempêtes vermillon",
+				"sentinelles": "Limitées",
+				"flore": "Foisonnante",
+				"faune": "Élevée",
+				"ressources": "Occasionnelles"
+			},
+			"ressources":
+			[
+				"cadmium",
+				"phosphore",
+				"cobalt"
+			]
+		},
+		{
+			"type_id": "lune",
+			"index": 5,
+			"nom": "Odsharl G47",
+			"capture": "Odsharl_G47.jpg",
+			"icone":
+			{
+				"source_id": "corps",
+				"echelle": "32%",
+				"couches":
+				{
+					"terre": "686882"
+				}
+			},
+			"environnement":
+			{
+				"biome": 
+				{
+					"id":"exotique",
+					"type_id": "ecrans"
+				},
+				"climat_id": "clair",
+				"sentinelles_id": "intenses",
+				"flore_id": "etrange",
+				"faune_id": "etrange",
+				"ressources_id": "moyennes"
+			},
+			"caracteristiques": 
+			{
+				"biome": "Lune brisée",
+				"climat": "Mémoires de givre",
+				"sentinelles": "Attentives",
+				"flore": "Consfisquée",
+				"faune": "Égarée",
+				"ressources": "Moyennes"
+			},
+			"ressources":
+			[
+				"cadmium",
+				"or",
+				"sel"
+			]
+		},
+		{
+			"type_id": "planete",
+			"index": 6,
+			"nom": "Megaeont",
+			"capture": "Megaeont.jpg",
+			"icone":
+			{
+				"source_id": "corps",
+				"echelle": "66%",
+				"couches":
+				{
+					"terre": "877992",
+					"eau": "232246"
+				}
+			},
+			"environnement":
+			{
+				"biome": 
+				{
+					"id":"volcanique"
+				},
+				"climat_id": "normal",
+				"sentinelles_id": "intenses",
+				"flore_id": "faible",
+				"faune_id": "abondante",
+				"ressources_id": "basses"
+			},
+			"caracteristiques": 
+			{
+				"biome": "Détonation du noyau imminente",
+				"climat": "Incendies occasionnels",
+				"sentinelles": "Patrouilles régulières",
+				"flore": "Rare",
+				"faune": "Abondante",
+				"ressources": "Éparses"
+			},
+			"ressources":
+			[
+				"cadmium",
+				"pyrite",
+				"cobalt"
+			]
+		}
+	]
+}
