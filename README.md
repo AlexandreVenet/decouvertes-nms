@@ -3,11 +3,6 @@
 GitHub Pages dédiée : [https://alexandrevenet.github.io/decouvertes-nms](https://alexandrevenet.github.io/decouvertes-nms)
 
 
-## 🚀 19-11-2026
-
-Première version fonctionnelle. 🥳
-
-
 ## 🧾Fichiers d'aide
 
 Notes *Obsidian* à compléter.  

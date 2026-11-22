@@ -147,7 +147,7 @@ class Main
 		
 		clone.champ('region').append( this.creerGeneralitesTexte(this.donnees.region, null) );
 		
-		clone.champ('distanceCentre').append( this.creerGeneralitesTexte(this.donnees.distance_centre + ' ' + REFERENCES.distance_centre.unite_mesure, null) );
+		clone.champ('distanceCentre').append( this.creerGeneralitesTexte(this.donnees.distance_centre.toLocaleString('fr-FR') + ' ' + REFERENCES.distance_centre.unite_mesure, null) );
 		
 		this.renseignerClasseSpectraleEtCouleur(clone.champ('classeSpectrale'), clone.champ('couleurEtoile'));
 		
